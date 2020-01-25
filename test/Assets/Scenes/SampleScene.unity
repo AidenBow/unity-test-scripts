@@ -130,6 +130,7 @@ GameObject:
   m_Component:
   - component: {fileID: 246340146}
   - component: {fileID: 246340145}
+  - component: {fileID: 246340147}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -144,7 +145,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 246340144}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 44f885b7045fa3749b822421682cdaa9, type: 3}
   m_Name: 
@@ -167,6 +168,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &246340147
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 246340144}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b7b114a1a431164ab63827c9b5d83bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objects:
+  - {fileID: 2068590469}
+  - {fileID: 1199106046}
+  - {fileID: 266289912}
 --- !u!1 &266289912
 GameObject:
   m_ObjectHideFlags: 0
@@ -185,7 +202,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!135 &266289913
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -455,7 +472,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d131c727e5e8ea74b969153ca575b8ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1
+  speed: 0.1
   colors:
   - {r: 1, g: 0, b: 0, a: 0}
   - {r: 0.9475136, g: 1, b: 0, a: 0}
@@ -537,7 +554,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   m_LocalRotation: {x: -0.33018154, y: -0.31877565, z: 0.11955428, w: -0.88038003}
-  m_LocalPosition: {x: 7.224613, y: 33.973328, z: -31.260735}
+  m_LocalPosition: {x: -3.8, y: 8.7, z: -12.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -561,7 +578,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!136 &1199106047
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -654,7 +671,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!135 &2068590470
 SphereCollider:
   m_ObjectHideFlags: 0
